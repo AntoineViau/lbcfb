@@ -9,7 +9,7 @@ services:
     build: ./app
     environment: 
      - INTEGRATION_BASE_URL=http://app:8080
-    working_dir: /lbcfb/src/api
+    working_dir: /lbcfb/api/src/api
     command: go test
     depends_on:
      - app
