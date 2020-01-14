@@ -6,4 +6,4 @@ RUN go test
 WORKDIR /lbcfb/api/src
 RUN go build 
 EXPOSE 8080
-CMD "/lbcfb/src/lbcfb"
+CMD "/lbcfb/api/src/lbcfb"
